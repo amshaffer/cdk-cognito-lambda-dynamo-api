@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import "source-map-support/register";
 import { App } from "@aws-cdk/core";
-import Template from "../lib/stacks/TemplateStack";
+import AppStack from "../lib/stacks/App";
 
 
 const app = new App();
@@ -16,4 +16,4 @@ const props = {
   }
 };
 
-new Template(app, "Template", props);
+new AppStack(app, "CognitoLambdaDynamoApiStack", props);

@@ -1,4 +1,4 @@
-# CDK Template
+# CDK Cognito, Lambda, Dynamo API
 
 <!-- ![Architecture](architecture.svg) -->
 
